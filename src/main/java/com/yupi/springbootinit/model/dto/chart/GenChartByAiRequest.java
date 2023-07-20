@@ -1,22 +1,17 @@
 package com.yupi.springbootinit.model.dto.chart;
 
-import com.yupi.springbootinit.common.PageRequest;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 
 /**
- * 查询请求
+ * 文件上传请求
  *
  * @author MOJunting
  * 
  */
-@EqualsAndHashCode(callSuper = true)
 @Data
-public class ChartQueryRequest extends PageRequest implements Serializable {
-
-    private Long id;
+public class GenChartByAiRequest implements Serializable {
 
     /**
      * 图表名称
@@ -24,7 +19,7 @@ public class ChartQueryRequest extends PageRequest implements Serializable {
     private String name;
 
     /**
-     * 分析目标
+     * 名称
      */
     private String goal;
 
@@ -32,11 +27,6 @@ public class ChartQueryRequest extends PageRequest implements Serializable {
      * 图表类型
      */
     private String chartType;
-
-    /**
-     * 用户 id
-     */
-    private Long userId;
 
     private static final long serialVersionUID = 1L;
 }
