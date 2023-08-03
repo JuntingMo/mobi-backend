@@ -13,18 +13,21 @@
 前端项目地址：https://github.com/JuntingMo/mobi-frotend
 
 智能分析（同步）页面：
+![Image text](https://github.com/JuntingMo/mobi-backend/blob/master/Figure/result1.png)
+
+![Image text](https://github.com/JuntingMo/mobi-backend/blob/master/Figure/result2.png)
 
 智能分析（异步）页面，支持异步分析：
+![Image text](https://github.com/JuntingMo/mobi-backend/blob/master/Figure/result3.png)
 
 智能分析（队列）页面：
+![Image text](https://github.com/JuntingMo/mobi-backend/blob/master/Figure/result4.png)
 
 我的图表页面：
-
-
+![Image text](https://github.com/JuntingMo/mobi-backend/blob/master/Figure/result5.png)
 
 ## 项目架构图
-
-
+![Image text](https://github.com/JuntingMo/mobi-backend/blob/master/Figure/architecture.png)
 
 ## 技术栈
 
